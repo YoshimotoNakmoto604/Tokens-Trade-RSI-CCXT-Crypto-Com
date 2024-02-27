@@ -4,8 +4,8 @@ from logging_component import Logger
 
 def main():
     # Replace 'YOUR_API_KEY' and 'YOUR_SECRET_KEY' with your actual API key and secret key
-    api_key = 'PqETAQJiok2j4mX7STKqP7'
-    secret_key = 'cxakp_ovA3z1hk7BtJqpwxEuhDg7'
+    api_key = 'API KEY HERE7'
+    secret_key = 'SECRET API HERE'
 
     # Initialize Logger for terminal display
     logger = Logger(log_to_file=False)
