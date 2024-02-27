@@ -9,6 +9,7 @@ class BitcoinTradingStrategy:
         self.logger = logger
         self.api_key = api_key
         self.secret_key = secret_key
+        #Replace ccxt.cryptocom with ccxt."any-ccxt-exchange" To change exchanges
         self.exchange = ccxt.cryptocom({
             'apiKey': api_key,
             'secret': secret_key,
